@@ -74,17 +74,43 @@ ol ol {
 
 .ext {
   padding: 1%;
+  color: #2b2a2a;
 }
 
 .int {
-  margin-left: 1%;
+  background-color: whitesmoke;
+  color: #2b2a2a;
+  margin: 0.5%;
+  margin-left: 1.5%;
   padding: 1%;
+  border-radius: 10px;
 }
 
 h3.h {
+  background-color: whitesmoke;
+  color: #2b2a2a;
   font-size: 20px;
+  border-radius: 5px;
+  margin: 0.5%;
+  text-indent: 0.5%;
 }
 
 h4.h {
+  background-color: whitesmoke;
+  color: #2b2a2a;
   font-size: 15px;
+  border-radius: 5px;
+  margin: 0.5%;
+  text-indent: 0.5%;
+  margin-left: 1%;
+}
+
+.texto {
+  font-size: 13.5px;
+  color: #2b2a2a;
+}
+
+.espacio {
+  margin-left: 3%;
+  color: #2b2a2a;
 }
