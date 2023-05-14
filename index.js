@@ -1,6 +1,6 @@
 function cambioTamano() {
   body = document.getElementById('body')
-  body.style.height = `${document.documentElement.scrollHeight}px`
+  body.style.height = `${window.innerHeight}px`
 }
 
 function f1() {
