@@ -33,9 +33,9 @@ ol ol {
   *padding: .4em;
   margin: .5em;
   margin-left: 1.5%;
-  background: #2b2a2a;
+  background: #353857;
   color: whitesmoke;
-  border: 2.5px solid whitesmoke;
+  border: 2.5px solid #878EDD;
   text-decoration: none;
   border-radius: .5em;
   transition: all .3s ease-out;
@@ -43,15 +43,14 @@ ol ol {
 }
 
 .lista a:hover{
-  background: whitesmoke;
-  color: #2b2a2a;
-  border: 2.5px solid #2b2a2a;
+  background: #878EDD;
+  border: 2.5px solid #353857;
 }
 
 .lista a:hover:before{
   transform: rotate(360deg);
-  background: whitesmoke ;
-  border: 2.5px solid #2b2a2a;
+  background: #878EDD;
+  border: 2.5px solid #353857;
 }
 
 .lista a:before{
@@ -61,11 +60,11 @@ ol ol {
   left: -1.3em;
   top: 50%;
   margin-top: -1.3em;
-  background: #2b2a2a;
+  background: #353857;
   height: 2em;
   width: 2em;
   line-height: 2em;
-  border: 2.5px solid whitesmoke;
+  border: 2.5px solid #878EDD;
   text-align: center;
   font-weight: bold;
   border-radius: 2em;
@@ -74,12 +73,10 @@ ol ol {
 
 .ext {
   padding: 1%;
-  color: #2b2a2a;
 }
 
 .int {
-  background-color: whitesmoke;
-  color: #2b2a2a;
+  background-color: #343EA9;
   margin: 0.5%;
   margin-left: 1.5%;
   padding: 1%;
@@ -87,8 +84,7 @@ ol ol {
 }
 
 h3.h {
-  background-color: whitesmoke;
-  color: #2b2a2a;
+  background-color: #343EA9;
   font-size: 20px;
   border-radius: 5px;
   margin: 0.5%;
@@ -96,8 +92,7 @@ h3.h {
 }
 
 h4.h {
-  background-color: whitesmoke;
-  color: #2b2a2a;
+  background-color: #343EA9;
   font-size: 15px;
   border-radius: 5px;
   margin: 0.5%;
@@ -106,11 +101,26 @@ h4.h {
 }
 
 .texto {
+  background-color: #424FD6;
   font-size: 13.5px;
-  color: #2b2a2a;
+  color: whitesmoke;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1%;
 }
 
 .espacio {
   margin-left: 3%;
-  color: #2b2a2a;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+.ext img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  border: 10px solid #343EA9;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

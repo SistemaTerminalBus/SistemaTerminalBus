@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #2b2a2a;
+  background-color: #1B2057;
 }
 
 #banner {
@@ -28,6 +28,7 @@ body {
 }
 
 .categoria {
+  background-color: #343EA9;
   height: 70%;
   width: 15%;
   font-weight: bold;
@@ -35,7 +36,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  border: 1px solid whitesmoke;
+  border: 1px solid #424FD6;
   border-radius: 10px;
   cursor: pointer;
   transition: 0.5s;
@@ -45,8 +46,7 @@ body {
 }
 
 .categoria:hover {
-  background-color: whitesmoke;
-  color: #2b2a2a;
+  background-color: #424FD6;
 }
 
 #contenido {
