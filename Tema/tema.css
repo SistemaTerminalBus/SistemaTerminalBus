@@ -124,3 +124,13 @@ h4.h {
   margin-right: auto;
   display: block;
 }
+
+.int img {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  border: 10px solid #424FD6;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
