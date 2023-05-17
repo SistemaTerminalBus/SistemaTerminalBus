@@ -43,9 +43,6 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  min-height: 45px;
-  min-width: 95px;
-  font-size: 1rem;
 }
 
 .categoria:hover {
