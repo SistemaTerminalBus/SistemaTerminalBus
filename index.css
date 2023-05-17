@@ -29,8 +29,8 @@ body {
 
 .categoria {
   background-color: #343EA9;
-  height: 70%;
-  width: 15%;
+  height: 75%;
+  width: 20%;
   font-weight: bold;
   display: flex;
   text-align: center;
@@ -43,6 +43,8 @@ body {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  min-height: 45px;
+  min-width: 95px;
 }
 
 .categoria:hover {
