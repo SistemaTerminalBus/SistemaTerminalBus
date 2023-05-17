@@ -45,7 +45,7 @@ body {
   overflow: hidden;
   min-height: 45px;
   min-width: 95px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .categoria:hover {
