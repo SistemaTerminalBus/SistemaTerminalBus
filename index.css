@@ -11,7 +11,7 @@ body {
 
 #banner {
   text-align: center;
-  height: 20%;
+  height: 10%;
   display: flex;
   text-align: center;
   align-items: center;
@@ -41,16 +41,16 @@ body {
   cursor: pointer;
   transition: 0.5s;
   white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
 }
 
 .categoria:hover {
   background-color: #424FD6;
+  transform: scale(0.9);
 }
 
 #contenido {
-  height: 70%;
+  height: 80%;
   width: 100%;
 }
 
