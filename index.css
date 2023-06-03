@@ -25,9 +25,15 @@ body {
 }
 
 #desplazar {
-  border: none;
-  background-color: transparent;
+  background-color: #343EA9;
+  border: 1px solid #424FD6;
+  width: 100%;
   cursor: pointer;
+  box-sizing: border-box;
+}
+
+#desplazar:hover {
+  background-color: #424FD6;
 }
 
 .subc {
@@ -59,8 +65,9 @@ body {
 }
 
 #contenido {
-  height: 88%;
+  height: 87.5%;
   width: 100%;
+  display: none;
 }
 
 .tema {
@@ -68,5 +75,3 @@ body {
   height: 100%;
   display: none;
 }
-
-
