@@ -8,18 +8,27 @@
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body id="body">
-  <div class="flex" id="banner">
+  <div id="banner">
     <h1>Sistema Facturacion Terminal Buses</h1>
   </div>
-  <div class="flex" id="menu">
-    <div id="D" class="categoria" onclick="f1()">Documentacion</div>
-    <div id="MT" class="categoria" onclick="f2()">Marco<br>Teorico</div>
-    <div id="AE" class="categoria" onclick="f3()">Análisis<br>Estructurado</div>
-    <div id="AOO" class="categoria" onclick="f4()">Análisis<br>Orientado<br>a Objetos</div>
+  <div id="menu">
+    <div class="subc">
+      <button id="D" class="categoria" onclick="f1()">Documentacion</button>
+      <button id="MT" class="categoria" onclick="f2()">Marco<br>Teorico</button>
+    </div>
+    <div class="subc">
+      <button id="S" class="categoria" onclick="f3()">Scrum</button>
+    </div>
+    <div class="subc">
+      <button id="AE" class="categoria" onclick="f4()">Análisis<br>Estructurado</button>
+      <button id="AOO" class="categoria" onclick="f5()">Análisis<br>Orientado<br>a Objetos</button>
+    </div>
+    <button id="desplazar" onclick="achicar()">△Secciones△</button>
   </div>
   <div class="flex" id="contenido">
     <iframe src="Tema\doc.html" frameborder="0" class="tema" id="doc"></iframe>
     <iframe src="Tema\mt.html" frameborder="0" class="tema" id="mt"></iframe>
+    <iframe src="Tema\scrum.html" frameborder="0" class="tema" id="scrum"></iframe>
     <iframe src="Tema\ae.html" frameborder="0" class="tema" id="ae"></iframe>
     <iframe src="Tema\aoo.html" frameborder="0" class="tema" id="aoo"></iframe>
   </div>
