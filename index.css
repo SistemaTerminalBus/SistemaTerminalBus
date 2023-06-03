@@ -41,7 +41,7 @@ body {
   cursor: pointer;
   transition: 0.5s;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .categoria:hover {

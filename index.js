@@ -3,6 +3,7 @@ function cambioTamano() {
   body.style.height = `${window.innerHeight}px`
 }
 
+
 function f1() {
   document.getElementById('doc').style.display = 'block'
   document.getElementById('mt').style.display = 'none'
