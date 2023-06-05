@@ -9,8 +9,128 @@
 </head>
 <body>
   <h2 id="ini" class="titulo">Scrum</h2>
+  <div id="dlista" class="ext">
+    <ol class="lista">
+      <li><a href="#intro">Introducción</a></li>
+      <li><a href="#rol">Roles</a></li>
+      <li><a href="#PB">Product Backlog</a></li>
+      <li><a href="#sprint">Sprint</a>
+        <ol>
+          <li><a href="#S1">Sprint 1. Recolpilación de Información</a></li>
+          <li><a href="#S2">Sprint 2. Diagrama de Contexto</a></li>
+          <li><a href="#S3">Sprint 3. Diagrama de Clases</a></li>
+        </ol>
+      </li>
+      <li><a href="#PU">Practicas Utilizadas</a>
+    </ol>
+  </div>
   <div class="ext">
-
+    <h3 id="intro" class="h">Introducción</h3>
+    <div class="int">
+      <p class="texto">Este documento describe la implementación de Scrum en el proyecto de Terminal de Buses. El objetivo de este proyecto es desarrollar un sistema para la facturación de boletos, para la terminal de buses ubicada en la ciudad de La Paz, que permita la agilización del proceso de compra.</p>
+    </div>
+    <h3 id="rol" class="h">Roles</h3>
+    <div class="int">
+      <h4 id="PO" class="h">Product Owner</h4>
+      <p class="texto">Yheremi Salguero es un apasionado y comprometido Product Owner con amplia experiencia en la gestión de productos y proyectos. Su enfoque se centra en comprender y satisfacer las necesidades de los clientes, al tiempo que impulsa el éxito del proyecto y el crecimiento del negocio.</p>
+      <ul class="texto">
+        <p class="texto">Posee las siguientes habilidades:</p>
+        <li class="espacio">Visión estratégica: Yheremi posee una sólida visión estratégica que le permite comprender las necesidades del mercado y anticipar las tendencias futuras. Esto le permite tomar decisiones informadas y establecer prioridades para maximizar el valor del producto.</li>
+        <li class="espacio">Excelente comunicación: Yheremi es un comunicador eficaz y posee habilidades excepcionales tanto en la comunicación verbal como escrita. Es capaz de transmitir claramente los requisitos y la visión del producto al equipo de desarrollo y a los stakeholders, fomentando una colaboración efectiva y un entendimiento compartido.</li>
+        <li class="espacio">Toma de decisiones: Yheremi es un tomador de decisiones seguro y fundamentado. Evalúa cuidadosamente las opciones disponibles, considerando tanto el valor del negocio como las necesidades de los clientes, para tomar decisiones informadas y acertadas en beneficio del proyecto.</li>
+        <li class="espacio">Colaboración y liderazgo: Yheremi es un líder colaborativo que fomenta un ambiente de trabajo positivo y motivador. Trabaja en estrecha colaboración con el equipo de desarrollo, facilitando la comunicación abierta y alentando la participación activa de todos los miembros.</li>
+      </ul>
+      <h4 id="DFE" class="h">Desarrollador Front-end</h4>
+      <p class="texto">Daniel Ticona es un talentoso y dedicado desarrollador front-end con experiencia en la creación de sitios web atractivos y funcionales utilizando WordPress. Es un apasionado por el diseño y la implementación de interfaces de usuario interactivas y responsivas. Con un enfoque en la usabilidad y la experiencia del usuario, Daniel se esfuerza por ofrecer soluciones técnicas de alta calidad que cumplan con los estándares modernos de desarrollo web.</p>
+      <ul class="texto">
+        <p class="texto">Posee las siguientes habilidades:</p>
+        <li class="espacio">Dominio de WordPress: Daniel tiene un amplio conocimiento y experiencia en el desarrollo de sitios web utilizando WordPress como plataforma principal. Es experto en la configuración, personalización y gestión de temas y plugins de WordPress para crear sitios web dinámicos y funcionales.</li>
+        <li class="espacio">Diseño responsivo: Daniel tiene experiencia en el desarrollo de sitios web responsivos que se adaptan y se ven bien en diferentes dispositivos y tamaños de pantalla. Implementa técnicas de diseño responsivo para garantizar una experiencia de usuario óptima en todos los dispositivos.</li>
+        <li class="espacio">Trabajo en equipo: Daniel es un colaborador eficiente y comunicativo. Disfruta trabajar en equipos multidisciplinarios y está comprometido con el logro de los objetivos del proyecto.</li>
+        <li class="espacio">Actualización constante: Daniel se mantiene al día con las últimas tendencias y avances en el campo del desarrollo web. Busca oportunidades para aprender y mejorar sus habilidades técnicas.</li>
+        <li class="espacio">Atención al detalle: Daniel presta atención a los detalles en cada etapa del desarrollo web, desde el diseño hasta la implementación. Se esfuerza por ofrecer productos finales de alta calidad y sin errores.</li>
+        <li class="espacio">Creatividad: Daniel tiene una mente creativa y aporta ideas innovadoras al desarrollo web. Busca soluciones originales y piensa fuera de lo convencional para ofrecer experiencias únicas a los usuarios.</li>
+      </ul>
+      <h4 id="DBE" class="h">Desarrollador Back-end</h4>
+      <p class="texto">Adrian Goyzueta es un desarrollador back-end altamente competente y con experiencia en la creación y mantenimiento de la lógica y la funcionalidad de los sitios web. Su principal enfoque se centra en el desarrollo de servidores, bases de datos y la implementación de la lógica empresarial para garantizar un funcionamiento eficiente de las aplicaciones web.</p>
+      <ul class="texto">
+        <p class="texto">Posee las siguientes habilidades:</p>
+        <li class="espacio">Lenguajes de programación: Adrian es experto en lenguajes de programación back-end como PHP, Java, Python o C#. Utiliza estos lenguajes para implementar la lógica de negocio y las funcionalidades de los sitios web.</li>
+        <li class="espacio">Bases de datos: Tiene experiencia en el diseño y desarrollo de bases de datos utilizando tecnologías como MySQL, PostgreSQL o Oracle. Es capaz de crear estructuras de datos eficientes y consultas optimizadas para acceder y almacenar información.</li>
+        <li class="espacio">Resolución de problemas: Es un solucionador de problemas habilidoso y puede identificar y resolver rápidamente los desafíos técnicos que surjan durante el desarrollo. Utiliza herramientas de depuración y técnicas de análisis para encontrar soluciones efectivas.</li>
+        <li class="espacio">Trabajo en equipo: Adrian es un miembro colaborativo y puede trabajar en estrecha colaboración con otros desarrolladores, diseñadores y profesionales de TI para lograr los objetivos del proyecto.</li>
+        <li class="espacio">Optimización y rendimiento: Tiene la capacidad de optimizar el rendimiento de las aplicaciones web, implementando técnicas como caché, compresión y consultas eficientes a la base de datos para mejorar la velocidad y la escalabilidad.</li>
+      </ul>
+      <h4 id="DFE" class="h">Tester</h4>
+      <p class="texto">Franklin Cayllagua es un tester altamente capacitado y enfocado en garantizar la calidad y el rendimiento de las aplicaciones y sistemas informáticos. Su principal responsabilidad es asegurarse de que los productos de software cumplan con los estándares de calidad establecidos y funcionen de manera óptima.</p>
+      <ul class="texto">
+        <p class="texto">Posee las siguientes habilidades:</p>
+        <li class="espacio">Planificación de pruebas: Franklin es experto en la planificación y diseño de estrategias de pruebas. Puede identificar los requisitos de prueba, definir los casos de prueba y establecer un plan de pruebas efectivo para evaluar la funcionalidad del software.</li>
+        <li class="espacio">Ejecución de pruebas: Tiene habilidades sólidas en la ejecución de diferentes tipos de pruebas, como pruebas funcionales, pruebas de integración, pruebas de rendimiento y pruebas de usabilidad. Utiliza herramientas de prueba y técnicas de depuración para identificar errores y asegurar que el software funcione correctamente.</li>
+        <li class="espacio">Reporte de errores: Franklin es capaz de documentar y reportar de manera clara y precisa los errores y problemas encontrados durante las pruebas. Proporciona informes detallados que ayudan a los equipos de desarrollo a corregir y solucionar los problemas de manera eficiente.</li>
+        <li class="espacio">Análisis de resultados: Franklin puede analizar y evaluar los resultados de las pruebas para identificar patrones, tendencias y áreas de mejora. Proporciona información valiosa que ayuda a los equipos de desarrollo a tomar decisiones informadas y realizar mejoras en el software.</li>
+        <li class="espacio">Colaboración: Es un miembro colaborativo y puede trabajar estrechamente con los desarrolladores, analistas y otros miembros del equipo de proyecto para comprender los requisitos y los objetivos de calidad. Participa activamente en las revisiones de diseño y ofrece retroalimentación constructiva.</li>
+        <li class="espacio">Resolución de problemas: Tiene habilidades sólidas para identificar y resolver problemas durante las pruebas. Utiliza su experiencia y conocimientos para abordar los desafíos técnicos y garantizar que se encuentren soluciones efectivas.</li>
+      </ul>
+      <h4 id="DFE" class="h">Analista de Sistemas</h4>
+      <p class="texto">Michel Alvarez es una analista de sistemas con una amplia experiencia en el análisis y diseño de soluciones informáticas. Su objetivo principal es comprender las necesidades y requerimientos de los usuarios y traducirlos en especificaciones técnicas que guíen el desarrollo de sistemas eficientes y efectivos.</p>
+      <ul class="texto">
+        <p class="texto">Posee las siguientes habilidades:</p>
+        <li class="espacio">Recopilación de requisitos: Michel es experta en la recopilación de requisitos de los usuarios y las partes interesadas. Utiliza diversas técnicas, como entrevistas, encuestas y talleres, para comprender completamente las necesidades del negocio y definir los objetivos del sistema.</li>
+        <li class="espacio">Análisis y modelado: Tiene habilidades sólidas en el análisis de procesos de negocio y en la creación de modelos que representen las diferentes etapas y flujos de trabajo. Utiliza herramientas como diagramas de flujo, diagramas de casos de uso y diagramas de actividad para visualizar y comunicar los requisitos del sistema.</li>
+        <li class="espacio">Especificación de requisitos: Michel es capaz de traducir los requisitos recopilados en especificaciones técnicas claras y detalladas. Documenta los requisitos funcionales y no funcionales, las reglas de negocio y las interfaces del sistema para guiar el desarrollo y garantizar que el producto final cumpla con las expectativas.</li>
+        <li class="espacio">Comunicación efectiva: Michel posee excelentes habilidades de comunicación, tanto verbal como escrita. Puede comunicarse de manera efectiva con los usuarios, los desarrolladores y otros miembros del equipo para garantizar una comprensión clara de los requisitos y facilitar la colaboración entre todas las partes involucradas.</li>
+        <li class="espacio">Orientación a los detalles: Michel presta atención a los detalles y se asegura de que los requisitos estén claramente definidos y sin ambigüedades. Realiza revisiones exhaustivas para identificar posibles brechas o inconsistencias y trabaja en estrecha colaboración con los equipos de desarrollo para asegurar la alineación adecuada.</li>
+        <li class="espacio">Colaboración y trabajo en equipo: Michel es una colaboradora eficiente y disfruta trabajando en equipo. Puede coordinar y facilitar sesiones de trabajo conjuntas, fomentando la participación activa y el intercambio de ideas entre los miembros del equipo.</li>
+      </ul>
+    </div>
+    <h3 id="PB" class="h">Product Backlog</h3>
+    <div class="int">
+      <ul class="texto">
+        <li class="espacio">Registro de usuarios: Implementar un sistema de registro de usuarios para almacenar la información personal de los pasajeros y agilizar el proceso de compra.</li>
+        <li class="espacio">Gestión de precios: Mantener los precios de los boletos de un viaje, evitando que existan cobros extra en ultimo momento.</li>
+        <li class="espacio">Generación automática de facturas: Desarrollar un sistema que genere automáticamente facturas electrónicas para cada compra realizada, mejorando la eficiencia y reduciendo el tiempo de atención al cliente.</li>
+        <li class="espacio">Gestión de histórico de ventas: Implementar un módulo que permita almacenar y consultar el historial de ventas, facilitando la identificación de patrones y análisis de datos para la toma de decisiones.</li>
+        <li class="espacio">Generación de reportes de ventas: Implementar un sistema de generación automática de informes y reportes de ventas para facilitar la toma de decisiones estratégicas.</li>
+      </ul>
+    </div>
+    <h3 id="sprint" class="h">Sprint</h3>
+    <div class="int">
+      <h4 id="S1" class="h">Sprint 1. - Recopilación de Información</h4>
+      <p class="texto">El sprint de Recolpilación de Información tendra una duracion de 1 semana. <br> Se debran cumplir los siguientes objetivos:</p>
+      <ul class="texto">
+        <li class="espacio">Definir los objetivos y alcance del proyecto en base a la terminal de buses de La Paz.</li>
+        <li class="espacio">Realizar investigaciones y análisis del dominio del sistema, comprendiendo su funcionamiento, procesos y requisitos específicos.</li>
+        <li class="espacio">Diseñar y aplicar encuestas a  pasajeros de la terminal de buses de La Paz.</li>
+        <li class="espacio">Recopilar y analizar los resultados de las encuestas y entrevistas, identificando patrones, necesidades y requerimientos prioritarios.</li>
+        <li class="espacio">Actualizar la documentación del proyecto, incluyendo el acta de inicio y el plan de gestión de requisitos.</li>
+      </ul>
+      <h4 id="S2" class="h">Sprint 2. - Diagrama de Contexto</h4>
+      <p class="texto">El sprint de Diagrama de Contexto tendra una duracion de 3 semanas. <br> Se debran cumplir los siguientes objetivos:</p>
+      <ul class="texto">
+        <li class="espacio">Revisar la documentación recopilada durante el sprint Recolpilación de Información para comprender el sistema y sus interacciones con el entorno.</li>
+        <li class="espacio">Diseñar y crear el diagrama de contexto, que muestre las interacciones entre el sistema y sus actores externos.</li>
+        <li class="espacio">Actualizar la documentación del proyecto, incluyendo el acta de inicio y el plan de gestión de requerimientos, con la inclusión del diagrama de contexto.</li>
+      </ul>
+      <h4 id="S3" class="h">Sprint 3. - Diagrama de Clases</h4>
+      <p class="texto">El sprint de Diagrama de Clases tendra una duracion de 2 semanas. <br> Se debran cumplir los siguientes objetivos:</p>
+      <ul class="texto">
+        <li class="espacio">Identificar las entidades principales del sistema y sus atributos, así como las relaciones entre ellas.</li>
+        <li class="espacio">Realizar investigaciones y análisis del dominio del sistema, comprendiendo su funcionamiento, procesos y requisitos específicos.</li>
+        <li class="espacio">Definir las clases necesarias para representar las entidades y sus interacciones en el sistema.</li>
+        <li class="espacio">Crear el diagrama de clases utilizando una herramienta de modelado, asegurando su correcta estructura y notación.</li>
+        <li class="espacio">Actualizar la documentación del proyecto, incluyendo el documento de diseño y las especificaciones técnicas, con la inclusión del diagrama de clases.</li>
+      </ul>
+    </div>
+    <h3 id="PU" class="h">Practicas Utilizadas</h3>
+    <div class="int">
+      <ul class="texto">
+        <li class="espacio">Planificación de sprint: Antes de cada sprint, el equipo lleva a cabo una reunión de planificación en la que se seleccionan las historias de usuario y se definen las tareas a realizar durante el sprint.</li>
+        <li class="espacio">Revisiones de sprint: Al final de cada sprint, el equipo realiza una reunión de revisión en la que el equipo muestra el trabajo completado al Product Owner. Esta reunión es una oportunidad para recibir retroalimentación, hacer demostraciones y ajustar las prioridades del producto.</li>
+        <li class="espacio">Retrospectivas de sprint: Después de cada sprint, el equipo lleva a cabo una retrospectiva para evaluar su desempeño y discutir mejoras, identifican aspectos positivos, desafíos y acciones de mejora para el próximo sprint.</li>
+        <li class="espacio">Colaboración y comunicación constante: Scrum promueve la colaboración y la comunicación efectiva entre todos los miembros del equipo. Esto incluye compartir conocimientos, trabajar en estrecha colaboración en tareas y tomar decisiones conjuntas para optimizar el proceso de desarrollo.</li>
+      </ul>
+    </div>
   </div>
 </body>
 </html>

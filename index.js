@@ -20,13 +20,10 @@ function achicar() {
   document.getElementById('contenido').style.display = 'block'
 }
 
-function f1() { 
-  var iframe = document.getElementById('doc')
+function f1() {
+  var iframe = document.getElementById('if')
   iframe.style.display = 'block'
-  document.getElementById('mt').style.display = 'none'
-  document.getElementById('scrum').style.display = 'none'
-  document.getElementById('ae').style.display = 'none'
-  document.getElementById('aoo').style.display = 'none'
+  iframe.contentWindow.location.href = 'Tema/doc.html';
   var divElement = (iframe.contentDocument || iframe.contentWindow.document).getElementById('ini');
   if (divElement) {
     divElement.scrollIntoView();
@@ -35,12 +32,9 @@ function f1() {
 }
 
 function f2() {
-  var iframe = document.getElementById('mt')
+  var iframe = document.getElementById('if')
   iframe.style.display = 'block'
-  document.getElementById('doc').style.display = 'none'
-  document.getElementById('scrum').style.display = 'none'
-  document.getElementById('ae').style.display = 'none'
-  document.getElementById('aoo').style.display = 'none'
+  iframe.contentWindow.location.href = 'Tema/mt.html';
   var divElement = (iframe.contentDocument || iframe.contentWindow.document).getElementById('ini');
   if (divElement) {
     divElement.scrollIntoView();
@@ -49,12 +43,9 @@ function f2() {
 }
 
 function f3() {
-  var iframe = document.getElementById('scrum')
+  var iframe = document.getElementById('if')
   iframe.style.display = 'block'
-  document.getElementById('doc').style.display = 'none'
-  document.getElementById('mt').style.display = 'none'
-  document.getElementById('ae').style.display = 'none'
-  document.getElementById('aoo').style.display = 'none'
+  iframe.contentWindow.location.href = 'Tema/scrum.html';
   var divElement = (iframe.contentDocument || iframe.contentWindow.document).getElementById('ini');
   if (divElement) {
     divElement.scrollIntoView();
@@ -63,12 +54,9 @@ function f3() {
 }
 
 function f4() {
-  var iframe = document.getElementById('ae')
+  var iframe = document.getElementById('if')
   iframe.style.display = 'block'
-  document.getElementById('doc').style.display = 'none'
-  document.getElementById('scrum').style.display = 'none'
-  document.getElementById('mt').style.display = 'none'
-  document.getElementById('aoo').style.display = 'none'
+  iframe.contentWindow.location.href = 'Tema/ae.html';
   var divElement = (iframe.contentDocument || iframe.contentWindow.document).getElementById('ini');
   if (divElement) {
     divElement.scrollIntoView();
@@ -77,12 +65,9 @@ function f4() {
 }
 
 function f5() {
-  var iframe = document.getElementById('aoo')
+  var iframe = document.getElementById('if')
   iframe.style.display = 'block'
-  document.getElementById('doc').style.display = 'none'
-  document.getElementById('scrum').style.display = 'none'
-  document.getElementById('mt').style.display = 'none'
-  document.getElementById('ae').style.display = 'none'
+  iframe.contentWindow.location.href = 'Tema/aoo.html';
   var divElement = (iframe.contentDocument || iframe.contentWindow.document).getElementById('ini');
   if (divElement) {
     divElement.scrollIntoView();

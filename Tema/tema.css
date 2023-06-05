@@ -83,8 +83,12 @@ ol ol {
   border-radius: 10px;
 }
 
+.h {
+  background-color: #353857;
+  border: 2px solid #878EDD;
+}
+
 h3.h {
-  background-color: #343EA9;
   font-size: 20px;
   border-radius: 5px;
   margin: 0.5%;
@@ -92,7 +96,6 @@ h3.h {
 }
 
 h4.h {
-  background-color: #343EA9;
   font-size: 15px;
   border-radius: 5px;
   margin: 0.5%;
