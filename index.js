@@ -17,7 +17,10 @@ function achicar() {
   document.getElementsByClassName('subc')[2].style.display = "none"
   document.getElementById('desplazar').textContent = "▽Secciones▽"
   document.getElementById('desplazar').onclick = agrandar
-  document.getElementById('contenido').style.display = 'block'
+  if (document.getElementById('if').style.display == 'block') {
+    document.getElementById('contenido').style.display = 'block'
+    document.getElementById('logo').style.display = 'none'
+  }
 }
 
 function f1() {
